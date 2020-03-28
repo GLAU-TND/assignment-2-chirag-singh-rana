@@ -21,4 +21,8 @@ public class MyBinarySearchTree<E> {
     public boolean add(E data) {
         return true;
     }
+
+    private TreeNode<E> addRecursive(TreeNode<E> currentNode, E data) {
+        return currentNode;
+    }
 }
