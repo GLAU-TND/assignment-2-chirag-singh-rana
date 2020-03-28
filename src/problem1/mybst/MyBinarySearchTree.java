@@ -34,6 +34,9 @@ public class MyBinarySearchTree<E> {
     }
 
     private void printLeftChild(TreeNode<E> node, int level) {
+        if (node == null) {
+            return;
+        }
 
     }
 }
