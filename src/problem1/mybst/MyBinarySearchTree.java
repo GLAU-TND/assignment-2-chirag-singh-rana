@@ -48,4 +48,9 @@ public class MyBinarySearchTree<E> {
         printLeftChild(node.getLeftChild(), level + 1);
         printLeftChild(node.getRightChild(), level + 1);
     }
+
+    public void print() {
+        printLeftChild(root, 1);
+        System.out.println();
+    }
 }
