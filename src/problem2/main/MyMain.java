@@ -31,6 +31,12 @@ public class MyMain {
     }
 
     public static void TraversePostOrder(TreeNode<Integer> currentNode) {
+        if (currentNode != null) {
+            TraversePreOrder(currentNode.getLeftChild());
+            TraversePreOrder(currentNode.getRightChild());
+            System.out.print(currentNode.getData() + " ");
+        }
+
 
     }
 
