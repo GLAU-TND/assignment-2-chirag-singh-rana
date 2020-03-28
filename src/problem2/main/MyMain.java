@@ -20,8 +20,10 @@ public class MyMain {
         myBinarySearchTree.add(85);
         myBinarySearchTree.add(10);
         System.out.println("traverse the tree in preOrder");
+        TraversePreOrder(myBinarySearchTree.getRoot());
+        System.out.println("traverse the tree in post order");
+        TraversePostOrder(myBinarySearchTree.getRoot());
     }
-
     public static void TraversePreOrder(TreeNode<Integer> currentNode) {
         if (currentNode != null) {
             System.out.print(currentNode.getData());
@@ -29,15 +31,11 @@ public class MyMain {
             TraversePreOrder(currentNode.getRightChild());
         }
     }
-
     public static void TraversePostOrder(TreeNode<Integer> currentNode) {
         if (currentNode != null) {
             TraversePreOrder(currentNode.getLeftChild());
             TraversePreOrder(currentNode.getRightChild());
             System.out.print(currentNode.getData() + " ");
         }
-
-
     }
-
 }
