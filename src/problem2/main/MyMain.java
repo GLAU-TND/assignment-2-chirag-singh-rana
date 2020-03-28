@@ -23,7 +23,11 @@ public class MyMain {
     }
 
     public static void TraversePreOrder(TreeNode<Integer> currentNode) {
-
+        if (currentNode != null) {
+            System.out.print(currentNode.getData());
+            TraversePreOrder(currentNode.getLeftChild());
+            TraversePreOrder(currentNode.getRightChild());
+        }
     }
 
 }
