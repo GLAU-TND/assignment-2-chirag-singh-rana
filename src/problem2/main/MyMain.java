@@ -7,6 +7,7 @@
 package problem2.main;
 
 import problem1.mybst.MyBinarySearchTree;
+import problem1.node.TreeNode;
 
 // executable class
 // use problem1.mybst.MyBinarySearchTree class for creating binary tree
@@ -18,6 +19,11 @@ public class MyMain {
         myBinarySearchTree.add(36);
         myBinarySearchTree.add(85);
         myBinarySearchTree.add(10);
+        System.out.println("traverse the tree in preOrder");
+    }
+
+    public static void TraversePreOrder(TreeNode<Integer> currentNode) {
+
     }
 
 }
