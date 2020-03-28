@@ -17,4 +17,8 @@ public class MyBinarySearchTree<E> {
     public TreeNode<E> getRoot() {
         return root;
     }
+
+    public boolean add(E data) {
+        return true;
+    }
 }
