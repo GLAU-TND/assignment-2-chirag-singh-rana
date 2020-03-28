@@ -14,4 +14,7 @@ public class MyBinarySearchTree<E> {
     private TreeNode<E> root;
     private int max = 0;
 
+    public TreeNode<E> getRoot() {
+        return root;
+    }
 }
