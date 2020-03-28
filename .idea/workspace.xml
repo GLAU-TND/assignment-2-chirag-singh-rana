@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb04333-855a-4796-b0b2-eb1d5c0ea528" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/problem2/main/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/main/MyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem3/node/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem3/node/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585399068854</updated>
       <workItem from="1585399076631" duration="4733000" />
-      <workItem from="1585403854371" duration="1202000" />
+      <workItem from="1585403854371" duration="1625000" />
     </task>
     <task id="LOCAL-00001" summary="declare three datatypes data,leftChild,rightChild">
       <created>1585399716297</created>
@@ -154,7 +154,35 @@
       <option name="project" value="LOCAL" />
       <updated>1585404996452</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="print the tree in pre order">
+      <created>1585405073756</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585405073756</updated>
+    </task>
+    <task id="LOCAL-00018" summary="made a method TraversePostOrder to print Tree in post order">
+      <created>1585405151213</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585405151213</updated>
+    </task>
+    <task id="LOCAL-00019" summary="print tree post order">
+      <created>1585405204913</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585405204913</updated>
+    </task>
+    <task id="LOCAL-00020" summary="call a method TraversePreOrder and TraversePostOrder">
+      <created>1585405324755</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585405324755</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +205,11 @@
     <MESSAGE value="make an arraylist of MyBinarySearchTree of integer values.then add 10 random values.then print then value of nodes inwhich leftchild is absent" />
     <MESSAGE value="made an arraylist of MyBinarySearchTree and add 5 values." />
     <MESSAGE value="made a method TraversePreOrder to print tree in pre order" />
-    <option name="LAST_COMMIT_MESSAGE" value="made a method TraversePreOrder to print tree in pre order" />
+    <MESSAGE value="print the tree in pre order" />
+    <MESSAGE value="made a method TraversePostOrder to print Tree in post order" />
+    <MESSAGE value="print tree post order" />
+    <MESSAGE value="call a method TraversePreOrder and TraversePostOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="call a method TraversePreOrder and TraversePostOrder" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -195,10 +227,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1585400588966" />
-    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585405202936">
+    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585405323048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585405202936" />
+    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585405323048" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1585404587411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
