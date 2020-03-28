@@ -30,4 +30,8 @@ public class MyMain {
         }
     }
 
+    public static void TraversePostOrder(TreeNode<Integer> currentNode) {
+
+    }
+
 }
