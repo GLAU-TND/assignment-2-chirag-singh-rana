@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="beb04333-855a-4796-b0b2-eb1d5c0ea528" name="Default Changelist" comment="make an arraylist of MyBinarySearchTree of integer values.then add 10 random values.then print then value of nodes inwhich leftchild is absent">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem2/main/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problem2/main/MyMain.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Zl1rxQQGBOM14qwV9LC07yaMst" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beb04333-855a-4796-b0b2-eb1d5c0ea528" name="Default Changelist" comment="" />
+      <created>1585399068854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585399068854</updated>
+      <workItem from="1585399076631" duration="4733000" />
+      <workItem from="1585403854371" duration="901000" />
+    </task>
+    <task id="LOCAL-00001" summary="declare three datatypes data,leftChild,rightChild">
+      <created>1585399716297</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585399716297</updated>
+    </task>
+    <task id="LOCAL-00002" summary="made getter and setter of datatypes.">
+      <created>1585399958583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585399958583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="make a constructor with a single argument data.">
+      <created>1585400061181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400061181</updated>
+    </task>
+    <task id="LOCAL-00004" summary="declare three datatypes root and numberofLeftCHild, max with initial value is 0">
+      <created>1585400264281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400264281</updated>
+    </task>
+    <task id="LOCAL-00005" summary="make a getter of root.">
+      <created>1585400308652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400308652</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create a boolean method add with a single argument data.">
+      <created>1585400386711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400386711</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create a method addRecursive with two arguments currentNode and data.">
+      <created>1585400493036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400493036</updated>
+    </task>
+    <task id="LOCAL-00008" summary="check currentNode is null or not.if true return a new node of data.if false and value of data is greater than value of current node set the rightchild inwhich recursive method is called.same for leftchild">
+      <created>1585400927213</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585400927213</updated>
+    </task>
+    <task id="LOCAL-00009" summary="made a method printLeftChild with 2 arguments node and level.">
+      <created>1585401063968</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585401063968</updated>
+    </task>
+    <task id="LOCAL-00010" summary="check whether node is null or not if node is null then return nothing.">
+      <created>1585401154884</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585401154884</updated>
+    </task>
+    <task id="LOCAL-00011" summary="if value of level is greater than max then print vale of node.">
+      <created>1585401256403</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1585401256403</updated>
+    </task>
+    <task id="LOCAL-00012" summary="if value of left child of node is null then increment of numberOfLeftChild and max.then use two recursive method in first leftchild of node and increment of level is passed in method.same as for 2nd recursive method.">
+      <created>1585401545362</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585401545362</updated>
+    </task>
+    <task id="LOCAL-00013" summary="made a method print inwhich printLeftCild method is called.">
+      <created>1585401674311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585401674311</updated>
+    </task>
+    <task id="LOCAL-00014" summary="make an arraylist of MyBinarySearchTree of integer values.then add 10 random values.then print then value of nodes inwhich leftchild is absent">
+      <created>1585402044603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585402044603</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="declare three datatypes data,leftChild,rightChild" />
+    <MESSAGE value="made getter and setter of datatypes." />
+    <MESSAGE value="make a constructor with a single argument data." />
+    <MESSAGE value="declare three datatypes root and numberofLeftCHild, max with initial value is 0" />
+    <MESSAGE value="make a getter of root." />
+    <MESSAGE value="create a boolean method add with a single argument data." />
+    <MESSAGE value="create a method addRecursive with two arguments currentNode and data." />
+    <MESSAGE value="check currentNode is null or not.if true return a new node of data.if false and value of data is greater than value of current node set the rightchild inwhich recursive method is called.same for leftchild" />
+    <MESSAGE value="made a method printLeftChild with 2 arguments node and level." />
+    <MESSAGE value="check whether node is null or not if node is null then return nothing." />
+    <MESSAGE value="if value of level is greater than max then print vale of node." />
+    <MESSAGE value="if value of left child of node is null then increment of numberOfLeftChild and max.then use two recursive method in first leftchild of node and increment of level is passed in method.same as for 2nd recursive method." />
+    <MESSAGE value="made a method print inwhich printLeftCild method is called." />
+    <MESSAGE value="make an arraylist of MyBinarySearchTree of integer values.then add 10 random values.then print then value of nodes inwhich leftchild is absent" />
+    <option name="LAST_COMMIT_MESSAGE" value="make an arraylist of MyBinarySearchTree of integer values.then add 10 random values.then print then value of nodes inwhich leftchild is absent" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Notifications" timestamp="1585402382435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1585402382435" />
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser" timestamp="1585400283770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="97" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585400283770" />
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585400588966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1585400588966" />
+    <state x="423" y="17" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585403942016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="423" y="17" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585403942016" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1585404587411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585404587411" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1585403959425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585403959425" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585403869910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585403869910" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585403047752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585403047752" />
+    <state x="539" y="278" key="git4idea.rebase.GitRebaseDialog" timestamp="1585403533317">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="278" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1585403533317" />
+    <state x="510" y="155" key="git4idea.rebase.GitRebaseEditor" timestamp="1585403092344">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="155" key="git4idea.rebase.GitRebaseEditor/0.0.1536.824@0.0.1536.824" timestamp="1585403092344" />
+  </component>
+</project>
