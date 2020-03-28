@@ -37,6 +37,8 @@ public class MyBinarySearchTree<E> {
         if (node == null) {
             return;
         }
-
+        if (max < level) {
+            System.out.print(node.getData() + " ");
+        }
     }
 }
