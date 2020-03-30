@@ -21,4 +21,9 @@ public class MyQueue<E> {
     public boolean isEmpty() {
         return size == 0;
     }
+
+    public E peek() {
+        E data = front.getData();
+        return data;
+    }
 }
