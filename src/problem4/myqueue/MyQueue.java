@@ -13,4 +13,8 @@ public class MyQueue<E> {
     private Node<E> front;
     private Node<E> rear;
     private int size = 0;
+
+    public int getSize() {
+        return size;
+    }
 }
