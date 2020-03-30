@@ -10,6 +10,10 @@ public class Student {
     private int rollNumber;
     private String name;
 
+    public Student(int rollNumber) {
+        this.rollNumber = rollNumber;
+    }
+
     public int getRollNumber() {
         return rollNumber;
     }
