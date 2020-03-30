@@ -26,4 +26,11 @@ public class MyQueue<E> {
         E data = front.getData();
         return data;
     }
+
+    public E dequeue() {
+        E data = front.getData();
+        front = front.getNext();
+        size--;
+        return data;
+    }
 }
