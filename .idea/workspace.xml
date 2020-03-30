@@ -64,7 +64,7 @@
       <workItem from="1585403854371" duration="3049000" />
       <workItem from="1585411345349" duration="474000" />
       <workItem from="1585415147578" duration="545000" />
-      <workItem from="1585580971544" duration="6047000" />
+      <workItem from="1585580971544" duration="6501000" />
     </task>
     <task id="LOCAL-00001" summary="declare three datatypes data,leftChild,rightChild">
       <created>1585399716297</created>
@@ -388,15 +388,27 @@
       <option name="project" value="LOCAL" />
       <updated>1585586872858</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="take a String input and split it and store in array.">
+      <created>1585587155312</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1585587155312</updated>
+    </task>
+    <task id="LOCAL-00048" summary="made an arraylist of binarysearchtree of integer type.then add values one by one of array in arraylist.">
+      <created>1585587359937</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1585587359937</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made getter and setter of data and next." />
-    <MESSAGE value="made a constructor with one argument data" />
     <MESSAGE value="made a constructor with 2 argument data and node" />
     <MESSAGE value="declare 1 variable size and 2 nodes front and rear." />
     <MESSAGE value="made a method remove to remove the first element." />
@@ -420,7 +432,9 @@
     <MESSAGE value="made a method dequeue  to delete the first element of the queue." />
     <MESSAGE value="create a method enqueue to add element" />
     <MESSAGE value="add element in the queue in method enqueue.&#10;made a method toString to return the String of elements of the queue." />
-    <option name="LAST_COMMIT_MESSAGE" value="add element in the queue in method enqueue.&#10;made a method toString to return the String of elements of the queue." />
+    <MESSAGE value="take a String input and split it and store in array." />
+    <MESSAGE value="made an arraylist of binarysearchtree of integer type.then add values one by one of array in arraylist." />
+    <option name="LAST_COMMIT_MESSAGE" value="made an arraylist of binarysearchtree of integer type.then add values one by one of array in arraylist." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -438,30 +452,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1585400588966" />
-    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585587153740">
+    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585587598240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585587153740" />
+    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585587598240" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585415220835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585415220835" />
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom" timestamp="1585586690083">
+    <state width="1478" height="208" key="GridCell.Tab.0.bottom" timestamp="1585587598405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585586690083" />
-    <state width="1478" height="208" key="GridCell.Tab.0.center" timestamp="1585586690083">
+    <state width="1478" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585587598405" />
+    <state width="1478" height="208" key="GridCell.Tab.0.center" timestamp="1585587598405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585586690083" />
-    <state width="1478" height="208" key="GridCell.Tab.0.left" timestamp="1585586690083">
+    <state width="1478" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585587598405" />
+    <state width="1478" height="208" key="GridCell.Tab.0.left" timestamp="1585587598404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585586690083" />
-    <state width="1478" height="208" key="GridCell.Tab.0.right" timestamp="1585586690083">
+    <state width="1478" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585587598404" />
+    <state width="1478" height="208" key="GridCell.Tab.0.right" timestamp="1585587598405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585586690083" />
+    <state width="1478" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585587598405" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1585404587411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

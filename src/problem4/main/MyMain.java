@@ -7,6 +7,7 @@
 package problem4.main;
 
 import problem1.mybst.MyBinarySearchTree;
+import problem4.myqueue.MyQueue;
 
 import java.util.Scanner;
 
@@ -22,5 +23,13 @@ public class MyMain {
         for (String g : array) {
             myBinarySearchTree.add(Integer.parseInt(g));
         }
+        MyQueue<Integer> myQueue = new MyQueue<>();
+        System.out.println("nodes after traversing in pre order");
+        MyQueue<Integer> myQueue1 = new MyQueue<>();
+        System.out.println();
+        System.out.println("Queue of pre order Successor :");
+        MyQueue<Integer> myQueue2 = new MyQueue<>();
+        System.out.println(myQueue2);
+        MyQueue<Integer> myQueue3 = new MyQueue<>();
     }
 }
