@@ -69,7 +69,6 @@ public class MyPriorityQueue<E> {
             sb.append(data);
             sb.append((i < size - 1) ? "\n" : "");
             temp = temp.getNext();
-
         }
         sb.append("]");
         return sb.toString();

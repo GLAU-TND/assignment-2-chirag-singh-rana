@@ -19,6 +19,11 @@ public class Student {
         this.rollNumber = rollNumber;
     }
 
+    @Override
+    public String toString() {
+        return rollNumber + "." + name;
+    }
+
     public int getRollNumber() {
         return rollNumber;
     }
