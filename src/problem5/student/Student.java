@@ -14,6 +14,11 @@ public class Student {
         this.rollNumber = rollNumber;
     }
 
+    public Student(int rollNumber, String name) {
+        this.name = name;
+        this.rollNumber = rollNumber;
+    }
+
     public int getRollNumber() {
         return rollNumber;
     }
