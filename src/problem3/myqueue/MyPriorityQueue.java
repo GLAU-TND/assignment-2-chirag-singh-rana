@@ -12,4 +12,11 @@ public class MyPriorityQueue<E> {
     private int size = 0;
     private Node<E> front;
     private Node<E> rear;
+
+    public E remove() {
+        E data = front.getData();
+        front = front.getNext();
+        size--;
+        return data;
+    }
 }
