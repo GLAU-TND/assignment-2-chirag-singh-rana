@@ -64,7 +64,7 @@
       <workItem from="1585403854371" duration="3049000" />
       <workItem from="1585411345349" duration="474000" />
       <workItem from="1585415147578" duration="545000" />
-      <workItem from="1585580971544" duration="6501000" />
+      <workItem from="1585580971544" duration="6898000" />
     </task>
     <task id="LOCAL-00001" summary="declare three datatypes data,leftChild,rightChild">
       <created>1585399716297</created>
@@ -402,14 +402,20 @@
       <option name="project" value="LOCAL" />
       <updated>1585587359937</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="made an  3 arrayList of myQueue.">
+      <created>1585587609607</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1585587609607</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made a constructor with 2 argument data and node" />
     <MESSAGE value="declare 1 variable size and 2 nodes front and rear." />
     <MESSAGE value="made a method remove to remove the first element." />
     <MESSAGE value="made a method peek to get the data of first node of Queue." />
@@ -434,7 +440,8 @@
     <MESSAGE value="add element in the queue in method enqueue.&#10;made a method toString to return the String of elements of the queue." />
     <MESSAGE value="take a String input and split it and store in array." />
     <MESSAGE value="made an arraylist of binarysearchtree of integer type.then add values one by one of array in arraylist." />
-    <option name="LAST_COMMIT_MESSAGE" value="made an arraylist of binarysearchtree of integer type.then add values one by one of array in arraylist." />
+    <MESSAGE value="made an  3 arrayList of myQueue." />
+    <option name="LAST_COMMIT_MESSAGE" value="made an  3 arrayList of myQueue." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -452,10 +459,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1585400588966" />
-    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585587598240">
+    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585587608100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585587598240" />
+    <state x="446" y="0" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585587608100" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585415220835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
