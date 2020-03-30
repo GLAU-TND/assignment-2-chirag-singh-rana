@@ -44,7 +44,7 @@
       <workItem from="1585403854371" duration="3049000" />
       <workItem from="1585411345349" duration="474000" />
       <workItem from="1585415147578" duration="545000" />
-      <workItem from="1585580971544" duration="925000" />
+      <workItem from="1585580971544" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="declare three datatypes data,leftChild,rightChild">
       <created>1585399716297</created>
@@ -228,16 +228,34 @@
       <option name="project" value="LOCAL" />
       <updated>1585581855187</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="made a method peek to get the data of first node of Queue.">
+      <created>1585581957531</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1585581957531</updated>
+    </task>
+    <task id="LOCAL-00028" summary="made a method add to add the node in the queue.">
+      <created>1585582087105</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1585582087105</updated>
+    </task>
+    <task id="LOCAL-00029" summary="made a method sortedAdd with passing a single argument data.">
+      <created>1585582195819</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585582195819</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made getter and setter of datatypes." />
-    <MESSAGE value="make a constructor with a single argument data." />
-    <MESSAGE value="declare three datatypes root and numberofLeftCHild, max with initial value is 0" />
     <MESSAGE value="make a getter of root." />
     <MESSAGE value="create a boolean method add with a single argument data." />
     <MESSAGE value="create a method addRecursive with two arguments currentNode and data." />
@@ -260,7 +278,10 @@
     <MESSAGE value="made a constructor with 2 argument data and node" />
     <MESSAGE value="declare 1 variable size and 2 nodes front and rear." />
     <MESSAGE value="made a method remove to remove the first element." />
-    <option name="LAST_COMMIT_MESSAGE" value="made a method remove to remove the first element." />
+    <MESSAGE value="made a method peek to get the data of first node of Queue." />
+    <MESSAGE value="made a method add to add the node in the queue." />
+    <MESSAGE value="made a method sortedAdd with passing a single argument data." />
+    <option name="LAST_COMMIT_MESSAGE" value="made a method sortedAdd with passing a single argument data." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -278,10 +299,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="618" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1585400588966" />
-    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585582085601">
+    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2" timestamp="1585582194259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585582085601" />
+    <state x="188" y="59" width="924" height="758" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585582194259" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585415220835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
