@@ -20,8 +20,17 @@ public class MyPriorityQueue<E> {
         return data;
     }
 
+    private Node<E> getNode(int index) {
+        Node<E> response = front;
+        for (int i = 1; i < index && front != null; i++) {
+            response = response.getNext();
+        }
+        return response;
+    }
+
     private void sortedAdd(E data) {
         Node<E> node = new Node<>(data);
+
     }
 
     public E peek() {
@@ -30,6 +39,5 @@ public class MyPriorityQueue<E> {
     }
 
     public void add(E data) {
-
     }
 }
