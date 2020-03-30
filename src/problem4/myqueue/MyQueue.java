@@ -33,4 +33,14 @@ public class MyQueue<E> {
         size--;
         return data;
     }
+
+    public void enqueue(E data) {
+        Node<E> node = new Node<>(data);
+        if (front == null) {
+            node.next = null;
+            front = node;
+            rear = node;
+        }
+
+    }
 }
