@@ -19,4 +19,9 @@ public class MyPriorityQueue<E> {
         size--;
         return data;
     }
+
+    public E peek() {
+        E data = front.getData();
+        return data;
+    }
 }
