@@ -41,9 +41,7 @@ public class MyPriorityQueue<E> {
             rear = getNode(size);
             front = getNode(1);
             size++;
-
         }
-
     }
 
     public E peek() {
@@ -52,5 +50,13 @@ public class MyPriorityQueue<E> {
     }
 
     public void add(E data) {
+        if (size == 0) {
+            Node<E> node = new Node<E>(data, null);
+            front = node;
+            rear = node;
+            size++;
+        } else {
+            sortedAdd(data);
+        }
     }
 }
